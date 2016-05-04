@@ -1,0 +1,7 @@
+# Java_Maven_Spring
+intellij配合maven搭建SpringMvc MyBatis
+
+##intellij使用上面被坑了
+之前使用的是eclipse，后来被intellij吸引，ideavim碉堡了，当用intellij配合maven搭建spring mybatis时，被坑了
+
+mybatis中xml文件，必须放到resources中，intellij才能找到xml文件，放在其他地方，果断被intellij无视，坑了哥哥半天时间
