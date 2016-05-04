@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.weeklybuy.www.dao.UserMapper">
+    <select id="login" parameterType="java.util.HashMap" resultType="java.util.HashMap">
+        SELECT * FROM user where name=#{name} and pwd=#{pwd}
+    </select>
+</mapper>
